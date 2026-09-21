@@ -10,7 +10,7 @@
 
 ### 修复
 
-- **OpenClaw 2026.9.x 入站回复兼容性：** 为低层 `dispatchReplyFromConfig` 调用绑定 Gateway 已发布的模型运行时，修复 `PreparedModelCatalogConfigReplacedError` 导致微信入站消息丢失的问题（#311、#312）。
+- **OpenClaw 2026.9.x 入站回复兼容性：** 为低层 `dispatchReplyFromConfig` 调用绑定 Gateway 已发布的模型运行时，修复 `PreparedModelCatalogConfigReplacedError` 导致微信入站消息丢失的问题（#311、#312；方案受 @yuzheng14 提交的 #313 启发）。
 
 ## [2.4.9-beta.0] - 2026-09-08
 
