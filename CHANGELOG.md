@@ -10,7 +10,7 @@ This project follows the [Keep a Changelog](https://keepachangelog.com/) format.
 
 ### Fixed
 
-- **OpenClaw 2026.9.x inbound-reply compatibility:** Bind the low-level `dispatchReplyFromConfig` call to the Gateway-published model runtime, fixing lost Weixin inbound messages caused by `PreparedModelCatalogConfigReplacedError` (#311, #312).
+- **OpenClaw 2026.9.x inbound-reply compatibility:** Bind the low-level `dispatchReplyFromConfig` call to the Gateway-published model runtime, fixing lost Weixin inbound messages caused by `PreparedModelCatalogConfigReplacedError` (#311, #312; solution inspired by #313 from @yuzheng14).
 
 ## [2.4.9-beta.0] - 2026-09-08
 
