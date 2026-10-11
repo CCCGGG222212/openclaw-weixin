@@ -193,7 +193,7 @@ Pull Request 会在 GitHub Actions 中执行质量检查、单元测试、覆盖
 
 ## 维护者
 
-本项目由 [@zengyi1001](https://github.com/zengyi1001) 维护。你可以通过 [GitHub](https://github.com/zengyi1001) 联系我。
+如果你遇到问题或有任何疑问，欢迎通过 [GitHub 主页](https://github.com/zengyi1001) 联系我。主页上提供了邮箱、微信等联系方式。
 
 ## License
 

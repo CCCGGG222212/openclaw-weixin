@@ -199,7 +199,7 @@ Bug reports, documentation improvements, tests, and code contributions are welco
 
 ## Maintainer
 
-Maintained by [@zengyi1001](https://github.com/zengyi1001). You can reach me through [GitHub](https://github.com/zengyi1001).
+If you run into a problem or have a question, feel free to contact me through [GitHub](https://github.com/zengyi1001). My profile includes email and WeChat contact information.
 
 ## License
 
