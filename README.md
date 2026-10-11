@@ -197,6 +197,10 @@ See the [development guide](./docs/development.md) for the complete worktree, de
 
 Bug reports, documentation improvements, tests, and code contributions are welcome. Please keep pull requests focused and include validation details. For changes to the backend integration, update the [protocol documentation](./docs/protocol.md) together with the implementation.
 
+## Maintainer
+
+Maintained by [@zengyi1001](https://github.com/zengyi1001). You can reach me through [GitHub](https://github.com/zengyi1001).
+
 ## License
 
 [MIT](./LICENSE)

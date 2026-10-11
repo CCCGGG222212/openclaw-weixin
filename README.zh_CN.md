@@ -191,6 +191,10 @@ Pull Request 会在 GitHub Actions 中执行质量检查、单元测试、覆盖
 
 欢迎提交问题、改进文档、补充测试和贡献代码。请保持 Pull Request 聚焦，并附上验证结果。修改后端集成时，请同步更新[协议文档](./docs/protocol_zh_CN.md)。
 
+## 维护者
+
+本项目由 [@zengyi1001](https://github.com/zengyi1001) 维护。你可以通过 [GitHub](https://github.com/zengyi1001) 联系我。
+
 ## License
 
 [MIT](./LICENSE)
