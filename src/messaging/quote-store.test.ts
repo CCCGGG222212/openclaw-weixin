@@ -107,14 +107,21 @@ describe("QuoteStore", () => {
         createdAt: now + index,
       });
     }
-    store.runGc(now + 3);
-    expect(store.find("account", "user", "0")).toBeNull();
-    expect(store.find("account", "user", "1")?.body).toBe("message-1");
-    expect(store.find("account", "user", "2")?.body).toBe("message-2");
+    const dateNow = vi.spyOn(Date, "now");
+    try {
+      dateNow.mockReturnValue(now + 3);
+      store.runGc(now + 3);
+      expect(store.find("account", "user", "0")).toBeNull();
+      expect(store.find("account", "user", "1")?.body).toBe("message-1");
+      expect(store.find("account", "user", "2")?.body).toBe("message-2");
 
-    store.runGc(now + 1000);
-    expect(store.find("account", "user", "1")).toBeNull();
-    expect(store.find("account", "user", "2")).toBeNull();
+      dateNow.mockReturnValue(now + 1000);
+      store.runGc(now + 1000);
+      expect(store.find("account", "user", "1")).toBeNull();
+      expect(store.find("account", "user", "2")).toBeNull();
+    } finally {
+      dateNow.mockRestore();
+    }
   });
 
   it("registers one managed media copy and deletes it with the account", async () => {
