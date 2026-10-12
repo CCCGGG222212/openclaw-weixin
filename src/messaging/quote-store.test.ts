@@ -618,3 +618,6 @@ describe("resolveQuoteCachePolicy", () => {
       maxMessagesPerAccount: 10_000,
       maxMediaBytesPerAccount: 256 * 1024 * 1024,
       maxSingleMediaBytes: 25 * 1024 * 1024,
+    });
+  });
+});
